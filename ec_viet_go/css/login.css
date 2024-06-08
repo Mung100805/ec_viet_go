@@ -1,0 +1,68 @@
+.login {
+    width: 30%;
+    height: 45 0px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Bóng đổ */
+}
+
+.title {
+    height: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #6FB555;
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+}
+.title h2 {
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.form_login {
+    margin-top: 30px;
+}
+
+.filed {
+    width: 80%;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    border: none;
+}
+input {
+    padding-left: 20px;
+    background-color: rgb(244, 239, 239);
+    color: black;
+}
+
+button {
+    background-color: #6FB555;
+    color: white;
+}
+
+button:hover {
+    font-size: 20px;
+}
+
+.forgot_username_passwork{
+    font-size: 14px;
+    float: right;
+}
+.forgot_username_passwork a {
+    padding-right: 40px;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #6FB555;
+}
+.sign_up {
+    margin-bottom: 20px;
+}
+h3 {
+    color: rgb(133, 122, 122);
+}
