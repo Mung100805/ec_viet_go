@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/ec_viet_go/css/login.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="login">
+        <div class="title">
+            <h2>Sign In</h2>
+        </div>
+        <div class="form_login">
+            <input type="text" class="filed" placeholder="Username">
+            <input type="password" class="filed" placeholder="Password"  id="myInput"><br><br>
+            <input type="checkbox" onclick="myFunction()">Show Password
+            <script>
+                function myFunction() {
+                  var x = document.getElementById("myInput");
+                  if (x.type === "password") {
+                    x.type = "text";
+                  } else {
+                    x.type = "password";
+                  }
+                }
+                </script>
+        </div>
+        <div>
+            <p class="forgot_username_passwork">Forgot <a href="/ec_viet_go/views/forget_password/Forget_Password.html"> <span>Username/Password?</a></p>
+        </div>
+        <div>
+            <br>
+                <button style="width:85% ;height: 40px;border: 0px;border-radius: 30px;"><b>Sign In</b></button>
+            <br>
+        </div>
+        <div class="sign_up">
+            <p style="margin-top: 100px;color: #C0C0C0; font-size: 20px;">Don't have an account?</p>
+            <p style="color: #6FB555;"><b>SING UP NOW</b> </p><br>
+        </div>
+    </div>
+</body>
+</html> 
