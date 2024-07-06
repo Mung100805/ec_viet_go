@@ -3,12 +3,12 @@
     height: 900px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.khung {    
+.form_1{    
     width: 100%;
     height: 250px;
-    border: 0px solid black;
+    border: 0px solid rgb(245, 45, 45);
 }
-.text{
+.form_2{
     width: 20%;
     height: 647px;
     border: 0px solid palevioletred;
@@ -18,7 +18,7 @@
    
     
 }
-.text1{
+.form_sign_in{
     width: 100%;
     height: 50px;
     border: 0px solid black;
@@ -32,7 +32,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     
 }
-.box{
+.form_viet_go{
     width: 100%;
     height:197px ;
     display: flex;
@@ -45,7 +45,7 @@
     left:   00px;
 
 }
-.text3{
+.form_input{
     width: 100%;
     height: 98px;
     border : 1px solid #E3E5EC;
@@ -54,7 +54,7 @@
     display: flex;
     flex-direction: row;
 }
-.text4{
+.form_home{
     width: 100%;
     height: 98px;
     border: 1px solid #E3E5EC;
@@ -64,35 +64,35 @@
     display: flex;
     flex-direction: row;
 }
-.text5{
+.form_dat_xe{
     width: 99%;
     height: 100px;
     border: 1px solid #4A5165;
     display: flex;
     flex-direction: row;
 }
-.text6{
+.form_dau_gia{
     width:99%;
     height: 100px;
     border: 1px solid #4A5165;
     display: flex;
     flex-direction: row;
 }
-.text7{
+.form_notification_2{
     width: 99%;
     height: 100px;
     border: 1px solid #4A5165;
     display: flex;
     flex-direction: row;
 }
-.text8{
+.form_don_hang{
     width: 99%;
     height: 100px;
     border: 1px solid #4A5165;
     display: flex;
     flex-direction: row;
 }
-.text9{
+.form_setting{
     width: 99%;
     height: 100px;
     border: 1px solid #4A5165;
@@ -100,7 +100,7 @@
     display: flex;
     flex-direction: row;
 }
-.text10{
+.title{
     width: 350px;
     height: 30px;
     border: 0px solid red;
@@ -108,33 +108,22 @@
     text-align: center;
     left:800px;
     top: 10px;
-    font-size: 25px;
+    font-size: 20px;
 
 
 }
-.text12{
+.form_chu{
     width: 170px;
     height: 60px;
     text-align: center;
     margin-top: 60px;
     margin-left: 100px;
-    font-size: 50px;
-    font-weight: 600;
+    font-size: 40px;
+    font-weight: 600;   
     color: blue;
 }
-.text13{
-    width: 35%;
-    height: 50px;
-    border: 1px solid #E3E5EC;
-    border-radius: 7px ;
-    position: relative;
-    top: 35%;
-    left: 30px;
-    color: black;
-    display: flex;
-    flex-direction: row;
-}
-.text14{
+
+.home{
     width: 4%;
     height: 35px;
     border: 0px solid black; 
@@ -142,9 +131,10 @@
     top: 37%;
     left: 20px; 
 }
-.text15{
+.icon_chevron_right{
     width: 2%;
     height: 35px;
+    margin-left: 10px;
     border: 0px solid rgb(0, 0, 0);
     position: relative;
     top: 37%;
@@ -152,7 +142,7 @@
     line-height: 35px;
     
 }
-.text17{
+.dau_gia{
     width: 7%;
     height: 35px;
     border: 0px solid black;
@@ -162,24 +152,8 @@
     line-height: 35px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.text18{
-    width: 7%;
-    height: 30px;
-    border: 0px solid black;
-    margin-top: 11px;
-    margin-left: 10px;
-}
-.text19{
-    width: 70%;
-    height: 30px;
-    border: 0px solid black;
-    margin-top: 11px;
-    margin-left: 10px;
-    line-height: 30px;
-    color: gray;
-    font-size: 20px;
-}
-.text20{
+
+.form_notification{
     width: 0%;
     height: 45px;
     border: 1px solid #E3E5EC;
@@ -187,16 +161,17 @@
     margin-left: 450px;
 
 }
-.text21{
-    width: 7%;
+.notification{
+    width: 9%;
     height: 50px;
     border: 0px solid black;
     margin-top: 33px;
     margin-left: 50px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 50px;
+    font-size: 20px;
 }
-.text22{
+.form_MUNGNVC{
     width: 0%;
     height: 40px;
     border: 1px solid #E3E5EC;
@@ -204,24 +179,25 @@
     margin-left: 50px;
 
 }
-.text23{
-    width: 7%;
+.MUNGNVC{
+    width: 10%;
     height: 50px;
     border: 0px solid black;
     margin-top: 33px;
     margin-left: 50px;
     line-height: 50px;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
-.text24{
+.icon_chevron_down{
     width: 2%;
     height: 50px;
     border: 0px solid black;
     margin-top: 33px;
-    margin-left: 20px;
+    margin-left: 25px;
     line-height: 50px;
 }
-.text16{
+.green_circle_1{
     width: 40px;
     height: 40px;
     border: 1px solid blue;
@@ -230,18 +206,18 @@
     margin-top: 30px;
     margin-left: 20px;
 }
-.text25{
+.dat_xe{
     width: 40%;
-    height: 50px;
+    height: 60px;
     border: 0px solid black;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-left: 20px;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 700;
     color: white;
 
 }
-.text26{
+.green_circle_2{
     width: 40px;
     height: 40px;
     border: 0 solid blue;
@@ -250,18 +226,18 @@
     margin-top: 30px;
     margin-left: 20px;
 }
-.text27{
+.dau_gia_2{
     width: 40%;
-    height: 50px;
+    height: 60px;
     border: 0px solid black;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-left: 20px;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 700;
     color: white;
     
 }
-.text28{
+.blue_circle_3{
     width: 40px;
     height: 40px;
     border: 0px solid blue;
@@ -270,17 +246,17 @@
     margin-top: 30px;
     margin-left: 20px;
 }
-.text29{
-    width: 40%;
-    height: 50px;
+.notification_2{
+    width: 50%;
+    height: 60px;
     border: 0px solid black;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-left: 20px;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     color: white;
 }
-.text30{
+.blue_circle_4{
     width: 40px;
     height: 40px;
     border: 1px solid blue;
@@ -289,40 +265,24 @@
     margin-top: 30px;
     margin-left: 20px;
 }
-.text31{
-    width: 43px;
-    height: 50px;
+.don_hang{
+    width: 40%;
+    height: 60px;
     border: 0px solid black;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-left: 20px;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     color: white;
 }
-.text30{
-    width: 40px;
-    height: 40px;
-    border: 0px solid blue;
-    border-radius: 40px;
-    background-color: blue;
-    margin-top: 30px;
-    margin-left: 20px;
-}
-.text31{
-    width: 40%;
-    height: 50px;
-    border: 0px solid black;
-    margin-top: 30px;
-    margin-left: 20px;
-}
-.text32{
+.icon_gear{
     width: 30px;
     height: 30px;
     border: 0px solid blue;
     margin-top: 37px;
     margin-left: 20px;
 }
-.text33{
+.setting{
     width: 30%;
     height: 50px;
     border: 0px solid black;
@@ -332,10 +292,33 @@
     font-weight: 500;
     color: white;
 }
-.text40{
+.icon_x{
     width: 50px;
     height: 50px;
     border: 0px solid black ;
     position: relative;
     left: 78.1%;
+}
+.input-container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px;
+    padding-left: 40px; /* Để khoảng trống cho icon */
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #E3E5EC;
+}
+
+.input-container .icon {
+    position: absolute;
+    left: 10px;
+    pointer-events: none;
 }
