@@ -1,7 +1,8 @@
 .container{
     width: 100%;
-    height: 900px;
+    height: auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
 }
 .form_1{    
     width: 100%;
@@ -30,7 +31,7 @@
     width: 20%;
     height: 197px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    
+    border: 0px solid red;
 }
 .form_viet_go{
     width: 100%;
@@ -43,6 +44,7 @@
     height: 197px;
     position: relative;
     left:   00px;
+    border: 0px solid red;
 
 }
 .form_input{
@@ -113,26 +115,29 @@
 
 }
 .form_chu{
-    width: 170px;
-    height: 60px;
+    width: 40%;
+    height: 100px;
     text-align: center;
     margin-top: 60px;
     margin-left: 100px;
     font-size: 40px;
     font-weight: 600;   
     color: blue;
+    border: 0px solid red;
 }
 
 .home{
-    width: 4%;
+    width: 8%;
     height: 35px;
-    border: 0px solid black; 
+    border: 0px solid black;
     position: relative;
     top: 37%;
     left: 20px; 
+    text-decoration: underline;
+    text-decoration-color: blue;
 }
 .icon_chevron_right{
-    width: 2%;
+    width: 5%;
     height: 35px;
     margin-left: 10px;
     border: 0px solid rgb(0, 0, 0);
@@ -143,7 +148,7 @@
     
 }
 .dau_gia{
-    width: 7%;
+    width: 8%;
     height: 35px;
     border: 0px solid black;
     position: relative;
@@ -158,7 +163,7 @@
     height: 45px;
     border: 1px solid #E3E5EC;
     margin-top: 33px;
-    margin-left: 450px;
+    margin-left: 600px;
 
 }
 .notification{
@@ -173,7 +178,7 @@
 }
 .form_MUNGNVC{
     width: 0%;
-    height: 40px;
+    height: 45px;
     border: 1px solid #E3E5EC;
     margin-top: 33px;
     margin-left: 50px;
@@ -184,7 +189,7 @@
     height: 50px;
     border: 0px solid black;
     margin-top: 33px;
-    margin-left: 50px;
+    margin-left: 80px;
     line-height: 50px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
@@ -194,7 +199,7 @@
     height: 50px;
     border: 0px solid black;
     margin-top: 33px;
-    margin-left: 25px;
+    margin-left: 1px;
     line-height: 50px;
 }
 .green_circle_1{
@@ -206,17 +211,7 @@
     margin-top: 30px;
     margin-left: 20px;
 }
-.dat_xe{
-    width: 40%;
-    height: 60px;
-    border: 0px solid black;
-    margin-top: 40px;
-    margin-left: 20px;
-    font-size: 30px;
-    font-weight: 700;
-    color: white;
 
-}
 .green_circle_2{
     width: 40px;
     height: 40px;
@@ -226,17 +221,7 @@
     margin-top: 30px;
     margin-left: 20px;
 }
-.dau_gia_2{
-    width: 40%;
-    height: 60px;
-    border: 0px solid black;
-    margin-top: 40px;
-    margin-left: 20px;
-    font-size: 30px;
-    font-weight: 700;
-    color: white;
-    
-}
+
 .blue_circle_3{
     width: 40px;
     height: 40px;
@@ -246,16 +231,7 @@
     margin-top: 30px;
     margin-left: 20px;
 }
-.notification_2{
-    width: 50%;
-    height: 60px;
-    border: 0px solid black;
-    margin-top: 40px;
-    margin-left: 20px;
-    font-size: 25px;
-    font-weight: 700;
-    color: white;
-}
+
 .blue_circle_4{
     width: 40px;
     height: 40px;
@@ -265,16 +241,7 @@
     margin-top: 30px;
     margin-left: 20px;
 }
-.don_hang{
-    width: 40%;
-    height: 60px;
-    border: 0px solid black;
-    margin-top: 40px;
-    margin-left: 20px;
-    font-size: 25px;
-    font-weight: 700;
-    color: white;
-}
+
 .icon_gear{
     width: 30px;
     height: 30px;
@@ -282,16 +249,7 @@
     margin-top: 37px;
     margin-left: 20px;
 }
-.setting{
-    width: 30%;
-    height: 50px;
-    border: 0px solid black;
-    margin-top: 30px;
-    margin-left: 20px;
-    font-size: 35px;
-    font-weight: 500;
-    color: white;
-}
+
 .icon_x{
     width: 50px;
     height: 50px;
@@ -310,6 +268,7 @@
 
 .input-container input {
     width: 100%;
+    height: 60px;
     padding: 10px;
     padding-left: 40px; /* Để khoảng trống cho icon */
     box-sizing: border-box;
@@ -321,4 +280,15 @@
     position: absolute;
     left: 10px;
     pointer-events: none;
+}
+a{
+    width: 80%;
+    height: 100px;
+    border: 0px solid black;
+    margin-top: 35px;
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;  
+    text-decoration: none;
 }
