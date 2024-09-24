@@ -1,0 +1,161 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Login Message */
+.login-message {
+    background-color: #004D3C;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0px; /* Bắt đầu sau sidebar */
+    right: 0;
+    z-index: 1000; /* Đảm bảo thanh thông báo nằm trên cùng */
+}
+
+.message-text {
+    font-size: 1rem;
+}
+
+.close-icon {
+    font-size: 1.5rem;
+    color: #2D6D5F;
+    cursor: pointer;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 20%;
+    background-color: #343B4C;
+    color: #fff;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 900;
+    padding-top: 30px;
+}
+
+/* Sidebar Header */
+.sidebar-header {
+    padding: 20px;
+    text-align: center;
+    margin-top: 0; /* Đảm bảo không có khoảng cách trên */
+    padding-top: 0; /* Loại bỏ padding trên nếu có */
+}
+
+/* Navigation List */
+.nav-list {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-item {
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item:hover {
+    background-color: #495057;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link i {
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+
+.nav-item:not(:last-child) {
+    border-bottom: 1px solid #495057; /* Gạch phân biệt giữa các menu */
+}
+
+/* Main Content */
+.main-content {
+    margin-left: 20%;
+}
+
+/* Header */
+.header {
+    position: relative; /* Tạo ngữ cảnh cho các phần tử tuyệt đối bên trong */
+    display: flex;
+    justify-content: space-between; /* Canh đều nội dung giữa các bên */
+    align-items: center;
+    padding: 35px 20px; /* Thêm padding nếu cần */
+    border-bottom: 2px solid #ddd; /* Gạch dưới với màu và độ dày tùy chỉnh */
+    background-color: #ffffff; /* Màu nền cho header nếu cần */
+}
+
+/* Search Box */
+.search-box {
+    padding: 8px 15px;
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    width: 250px;
+    position: absolute; /* Đặt vị trí tuyệt đối */
+    top: 20px; /* Khoảng cách từ đỉnh */
+    left: 20px; /* Khoảng cách từ bên trái */
+}
+
+/* User Info */
+.user-info {
+    display: flex;
+    align-items: center;
+    position: absolute; /* Đặt vị trí tuyệt đối */
+    top: 20px; /* Khoảng cách từ đỉnh */
+    right: 20px; /* Khoảng cách từ bên phải */
+}
+
+/* Breadcrumb */
+.breadcrumb {
+    background-color: #f8f9fa;
+    padding: 0px 20px;
+    margin-top: 2px; /* Khoảng cách giữa header và breadcrumb */
+    border-bottom: 1px solid #dee2e6; /* Gạch phân biệt dưới breadcrumb */
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #007bff; /* Màu liên kết */
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb span {
+    margin: 0 5px;
+    color: #6c757d; /* Màu phân tách */
+}
+.login{
+    text-align: center;
+    background-color: #004D3C;
+    border-bottom: 1px solid #dee2e6;
+    font-size: 1.2rem;
+    color: white;
+    
+}
